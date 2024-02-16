@@ -9,7 +9,7 @@
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
+    scroll-behavior : smooth;
 }
 
 body {
@@ -268,4 +268,9 @@ li a:hover {
     .main {
         margin-top: 2rem;
     }
+}
+
+.hidden-text {
+    opacity: 0;
+    transition: opacity 1s;
 }
